@@ -4,7 +4,14 @@ theme = "dark_plus"
 line-number = "relative"
 
 auto-format = true
-auto-pairs = false
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
 
 [editor.lsp]
 display-messages = true
